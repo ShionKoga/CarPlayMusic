@@ -9,7 +9,15 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List(viewModel.albums) { album in
-                    AlbumCell(album: album)
+                    NavigationLink {
+                        AlbumDetailView(viewModel: .init(album: album))
+                    } label: {
+                        MusicItemCell(
+                            artwork: album.artwork,
+                            title: album.title,
+                            subtitle: album.artistName
+                        )
+                    }
                 }
                 .animation(.default, value: viewModel.albums)
             }

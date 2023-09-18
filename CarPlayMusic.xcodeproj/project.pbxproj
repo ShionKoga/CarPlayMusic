@@ -16,8 +16,8 @@
 		1136BDE32AB6DF5000349EDA /* CarPlayMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1136BDE22AB6DF5000349EDA /* CarPlayMusicUITestsLaunchTests.swift */; };
 		1161B29D2AB8057500F599CF /* WelcomeView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161B29C2AB8057500F599CF /* WelcomeView+ViewModel.swift */; };
 		1161B29F2AB8200100F599CF /* ContentView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161B29E2AB8200100F599CF /* ContentView+ViewModel.swift */; };
+		1161B2A12AB825CA00F599CF /* AlbumDetailView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161B2A02AB825CA00F599CF /* AlbumDetailView+ViewModel.swift */; };
 		11AE03AE2AB6E91700B75DC5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE03AD2AB6E91700B75DC5 /* WelcomeView.swift */; };
-		11AE03B12AB6EA1E00B75DC5 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE03B02AB6EA1E00B75DC5 /* AlbumCell.swift */; };
 		11AE03B32AB6EAAA00B75DC5 /* MusicItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE03B22AB6EAAA00B75DC5 /* MusicItemCell.swift */; };
 		11AE03B52AB6EB9600B75DC5 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE03B42AB6EB9600B75DC5 /* AlbumDetailView.swift */; };
 		11AE03B82AB6F04900B75DC5 /* ProminentButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE03B72AB6F04900B75DC5 /* ProminentButtonStyle.swift */; };
@@ -54,8 +54,8 @@
 		1136BDE22AB6DF5000349EDA /* CarPlayMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1161B29C2AB8057500F599CF /* WelcomeView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView+ViewModel.swift"; sourceTree = "<group>"; };
 		1161B29E2AB8200100F599CF /* ContentView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+ViewModel.swift"; sourceTree = "<group>"; };
+		1161B2A02AB825CA00F599CF /* AlbumDetailView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumDetailView+ViewModel.swift"; sourceTree = "<group>"; };
 		11AE03AD2AB6E91700B75DC5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		11AE03B02AB6EA1E00B75DC5 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		11AE03B22AB6EAAA00B75DC5 /* MusicItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItemCell.swift; sourceTree = "<group>"; };
 		11AE03B42AB6EB9600B75DC5 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		11AE03B72AB6F04900B75DC5 /* ProminentButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProminentButtonStyle.swift; sourceTree = "<group>"; };
@@ -167,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				11AE03B42AB6EB9600B75DC5 /* AlbumDetailView.swift */,
+				1161B2A02AB825CA00F599CF /* AlbumDetailView+ViewModel.swift */,
 			);
 			path = AlbumDetailView;
 			sourceTree = "<group>";
@@ -192,7 +193,6 @@
 		11AE03AF2AB6EA0F00B75DC5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				11AE03B02AB6EA1E00B75DC5 /* AlbumCell.swift */,
 				11AE03B22AB6EAAA00B75DC5 /* MusicItemCell.swift */,
 				11AE03B92AB6F3C300B75DC5 /* TrackCell.swift */,
 			);
@@ -344,8 +344,8 @@
 				11AE03AE2AB6E91700B75DC5 /* WelcomeView.swift in Sources */,
 				1161B29F2AB8200100F599CF /* ContentView+ViewModel.swift in Sources */,
 				11AE03B82AB6F04900B75DC5 /* ProminentButtonStyle.swift in Sources */,
-				11AE03B12AB6EA1E00B75DC5 /* AlbumCell.swift in Sources */,
 				11AE03B32AB6EAAA00B75DC5 /* MusicItemCell.swift in Sources */,
+				1161B2A12AB825CA00F599CF /* AlbumDetailView+ViewModel.swift in Sources */,
 				11AE03BA2AB6F3C300B75DC5 /* TrackCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
